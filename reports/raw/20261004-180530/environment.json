@@ -1,0 +1,50 @@
+{
+  "workload": "synthetic seed=42; 4096 dense IDs; 8192 ticks; 300000 service / 60000 queued events",
+  "flags": "-Xms512m -Xmx512m -XX:+UseG1GC",
+  "os": "Microsoft Windows NT 10.0.26200.0",
+  "cpu": {
+    "Name": "13th Gen Intel(R) Core(TM) i9-13900HK",
+    "NumberOfCores": 14,
+    "NumberOfLogicalProcessors": 20
+  },
+  "recordedAt": "2026-10-04T22:05:32.1140206Z",
+  "source": [
+    {
+      "path": "src\\main\\java\\io\\github\\bigfiiish\\eventledger\\ArrayBook.java",
+      "sha256": "03C0EA027C8EA8277E330F7AC3EBD6B7F4D6E764075FB76C7FCE7E1B22FB8ADF"
+    },
+    {
+      "path": "src\\main\\java\\io\\github\\bigfiiish\\eventledger\\Benchmark.java",
+      "sha256": "36ECAC36D95FD2F2E79AAA23ABDD8E683ED25E3B70CFC6F836255889127DB3C6"
+    },
+    {
+      "path": "src\\main\\java\\io\\github\\bigfiiish\\eventledger\\Book.java",
+      "sha256": "DB3A490EABD13869DA8C1222129387B7D219C8AAF9ED01D0525186F2C355C5E9"
+    },
+    {
+      "path": "src\\main\\java\\io\\github\\bigfiiish\\eventledger\\Event.java",
+      "sha256": "B012209E72DB8B8C374E4F9244D25AEE1BAE81A29A9BC872718BDBCF7819D890"
+    },
+    {
+      "path": "src\\main\\java\\io\\github\\bigfiiish\\eventledger\\Journal.java",
+      "sha256": "6759984696F1F772D8D6699EF73D189F6C2151412CAF35D1CEF3349C83D46D8C"
+    },
+    {
+      "path": "src\\main\\java\\io\\github\\bigfiiish\\eventledger\\ReferenceBook.java",
+      "sha256": "A22D92B1CB6597F005F3DF836241806A07012E666FCD477A6A8547506C42FD67"
+    },
+    {
+      "path": "src\\main\\java\\io\\github\\bigfiiish\\eventledger\\Replay.java",
+      "sha256": "229808C963D2BC0B7080F09D15F75F4D4ED471A31043C76D480458114E6B7904"
+    },
+    {
+      "path": "src\\main\\java\\io\\github\\bigfiiish\\eventledger\\Workload.java",
+      "sha256": "D297D55BBF0966D5F3464009DA227487CBAB3746EE89277B259EA2815A133F70"
+    },
+    {
+      "path": "src\\test\\java\\io\\github\\bigfiiish\\eventledger\\BookTest.java",
+      "sha256": "EB765D60B9145C1723EDEB50E4B9F7EFAC1B91166C5AAA48E06FFDAC16D2FFDA"
+    }
+  ],
+  "java": "openjdk version \"21.0.12\" 2026-07-21 LTS\r\nOpenJDK Runtime Environment Microsoft-14653896 (build 21.0.12+8-LTS)\r\nOpenJDK 64-Bit Server VM Microsoft-14653896 (build 21.0.12+8-LTS, mixed mode, sharing)\r\n"
+}

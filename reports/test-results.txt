@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.github.bigfiiish.eventledger.BookTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.208 s -- in io.github.bigfiiish.eventledger.BookTest
