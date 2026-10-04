@@ -2,6 +2,8 @@
 
 Java 21 event-processing laboratory: a deterministic order book, a readable reference implementation, a bounded array implementation, and reproducible latency experiments. **Synthetic single-instrument data; no broker, exchange connectivity, market-making strategy, or trading-performance claim.**
 
+[Open the public performance report](https://event-ledger-beryl.vercel.app/) · [Portfolio case study](https://www.xingjiyan.com/work/event-ledger/)
+
 ## Recorded evidence — October 4, 2026
 
 17 JUnit test cases pass. Three independent JVM forks, four measured rounds each, on an Intel Core i9-13900HK / Windows / Microsoft OpenJDK 21.0.12, G1, 512 MB fixed heap. Raw CSVs and environment/source hashes are retained under `reports/raw/20261004-180530`; open `reports/index.html` for the complete report.
